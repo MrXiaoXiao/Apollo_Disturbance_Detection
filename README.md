@@ -56,7 +56,7 @@ To perform manual annotation, follow these steps:
 
      After Update FFT
      
-![GUI Screenshot 2](GUI_ScreenShot_1.jpg)
+![GUI Screenshot 2](GUI_ScreenShot_2.jpg)
 
    - **Save Windows:**  
      Click the **Save Windows** button to export your window selections to a CSV file. The file will contain two columns: the first lists the start time and the second lists the end time for each annotated window.
