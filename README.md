@@ -15,6 +15,7 @@ Set up the required environment using conda and pip:
 ```bash
 conda create -n apollo_annotator
 conda activate apollo_annotator
+conda install python=3.9
 pip install tensorflow==2.15 keras==2.15 obspy==1.4 astropy==5.3 jupyter notebook pyyaml
 ```
 
