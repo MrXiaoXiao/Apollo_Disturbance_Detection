@@ -50,11 +50,11 @@ To perform manual annotation, follow these steps:
    - **Update FFT:**  
      After setting your windows, click **Update FFT** to compute and display the Fast Fourier Transform results below the main plot. You can also configure the frequency and period range for visualization in the interface.
      
-     Before Update FFT
+ Before Update FFT
      
 ![GUI Screenshot 1](GUI_ScreenShot_1.jpg)
 
-     After Update FFT
+After Update FFT
      
 ![GUI Screenshot 2](GUI_ScreenShot_2.jpg)
 
