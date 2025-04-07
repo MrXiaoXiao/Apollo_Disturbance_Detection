@@ -1,0 +1,21 @@
+PickNet:
+  wave_type: 'P'
+  duplicate_num: 14
+  length: 80000
+  channel_num: 1
+  b1_convw: 21
+  b2_convw: 17
+  b3_convw: 13
+  b4_convw: 9
+  b5_convw: 5
+  att_width: 5
+
+Process:
+  gpu_id: '0'
+  trace_path: '../example_data/raw_waveform/XA.S12.00.MHZ__19711020T000000Z__19711021T000000Z.mseed'
+  trace_save_path: '../example_data/annotation_output/test_output.mseed'
+  csv_save_path:  '../example_data/annotation_output/test_output_annotated.csv'
+  # detection probability threshold
+  det_th: 0.1
+  # extend each detection to the left and right by the following number of samples
+  extend_sample_len: 100
