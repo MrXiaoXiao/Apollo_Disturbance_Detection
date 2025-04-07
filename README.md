@@ -25,8 +25,7 @@ pip install tensorflow==2.15 keras==2.15 obspy==1.4 astropy==5.3 jupyter noteboo
 
 To perform manual annotation, follow these steps:
 
-1. **Locate the Annotator Script:**
-   - The main script is [`Apollo_annotator.py`](MannualAnnotate/Apollo_annotator.py) located under the **MannualAnnotate** folder.
+1. **Enter the 'MannalAnnotateInterface' folder**
 
 2. **Start the Annotator:**
    - Execute the following command in your terminal:
@@ -57,17 +56,10 @@ To perform manual annotation, follow these steps:
 
 For an automated annotation workflow:
 
-1. **Configuration:**
-   - Modify the target data path and the save data path in the configuration file.
+1. **Enter the 'AutoProcessWorkflow' folder**
+
+2. **Configuration:**
+   - Modify the target data path and the save data path in the configuration file 'disturbance_detection.yaml' under the folder.
    
-2. **Execution:**
-   - Run the script. The tool will automatically perform detection and save the results to the specified location.
-
-## Usage
-
-Whether you are manually annotating or using the automated workflow, Apollo Annotator provides a robust set of features for data analysis:
-
-- **Interactive Plotting:** Visualize your data in real-time.
-- **Customizable Analysis Windows:** Flexibly define, adjust, and merge windows.
-- **FFT Computation:** Easily compute and visualize FFT results.
-- **Easy Data Export:** Save your annotations as a CSV file for further analysis.
+3. **Execution:**
+   - Run the script 'detect_example_script.py', which will automatically perform detection and save the results to the specified location.
