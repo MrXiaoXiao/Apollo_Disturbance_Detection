@@ -7,7 +7,6 @@ Apollo Annotator is a user-friendly application for annotating and analyzing rec
 - [Installation](#installation)
 - [Manual Annotation](#manual-annotation)
 - [Automated Workflow](#automated-workflow)
-- [Usage](#usage)
 
 ## Installation
 
