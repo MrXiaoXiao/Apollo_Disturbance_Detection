@@ -49,6 +49,15 @@ To perform manual annotation, follow these steps:
      Click the **Merge Window** button or press **`M`** to combine overlapping windows.
    - **Update FFT:**  
      After setting your windows, click **Update FFT** to compute and display the Fast Fourier Transform results below the main plot. You can also configure the frequency and period range for visualization in the interface.
+     
+     Before Update FFT
+     
+![GUI Screenshot 1](GUI_ScreenShot_1.jpg)
+
+     After Update FFT
+     
+![GUI Screenshot 2](GUI_ScreenShot_1.jpg)
+
    - **Save Windows:**  
      Click the **Save Windows** button to export your window selections to a CSV file. The file will contain two columns: the first lists the start time and the second lists the end time for each annotated window.
 
