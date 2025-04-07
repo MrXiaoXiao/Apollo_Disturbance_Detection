@@ -1,4 +1,4 @@
-# Apollo_Disturbance_Detection
+# Apollo_Disturbance_Detection [![DOI](https://zenodo.org/badge/961829074.svg)](https://doi.org/10.5281/zenodo.15166531)
 
 Apollo Annotator is a user-friendly application for annotating and analyzing recently re-archived Apollo lunar seismic data (Nunn et al., 2020) in MiniSEED format. This tool offers both manual and automated workflows to help with efficiently process and analyze.
 
