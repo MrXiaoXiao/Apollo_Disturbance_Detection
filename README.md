@@ -54,7 +54,7 @@ To perform manual annotation, follow these steps:
      
 ![GUI Screenshot 1](GUI_ScreenShot_1.jpg)
 
-     After Update FFT
+   After Update FFT
      
 ![GUI Screenshot 2](GUI_ScreenShot_1.jpg)
 
