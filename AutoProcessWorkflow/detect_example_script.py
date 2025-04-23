@@ -148,12 +148,11 @@ def process_and_save(model, trace_path, input_length, det_th, extend_sample_len,
 
 if __name__ == '__main__':
     cfgs = yaml.load(open('./disturbance_detection.yaml','r'), Loader=yaml.SafeLoader)
+    os.environ['CUDA_VISIBLE_DEVICES'] = cfgs['Process']['gpu_id']
     model = PickNet_v2(cfgs)
     input_length = cfgs['PickNet']['length']
     model_path = 'disturbance_detection_used_in_paper.h5'
     model.load_weights(model_path)
-    
-    os.environ['CUDA_VISIBLE_DEVICES'] = cfgs['Process']['gpu_id']
     try:
         tf.config.experimental.set_memory_growth(tf.config.experimental.list_physical_devices('GPU')[0], True)
     except:
