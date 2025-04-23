@@ -1,6 +1,6 @@
-# Apollo_Disturbance_Detection
+# Apollo_Disturbance_Detection [![DOI](https://zenodo.org/badge/961829074.svg)](https://doi.org/10.5281/zenodo.15166531)
 
-Apollo Annotator is a user-friendly application for annotating and analyzing recently re-archived Apollo lunar seismic data (Nunn et al., 2020) in MiniSEED format. This tool offers both manual and automated workflows to help with efficiently process and analyze.
+Apollo Annotator is a user-friendly application for annotating and analyzing recently re-archived Apollo lunar seismic data (Nunn et al., 2022) in MiniSEED format. This tool offers both manual and automated workflows to help with efficiently process and analyze.
 
 ## Table of Contents
 
@@ -49,6 +49,15 @@ To perform manual annotation, follow these steps:
      Click the **Merge Window** button or press **`M`** to combine overlapping windows.
    - **Update FFT:**  
      After setting your windows, click **Update FFT** to compute and display the Fast Fourier Transform results below the main plot. You can also configure the frequency and period range for visualization in the interface.
+     
+ Before Update FFT
+     
+![GUI Screenshot 1](GUI_ScreenShot_1.jpg)
+
+After Update FFT
+     
+![GUI Screenshot 2](GUI_ScreenShot_2.jpg)
+
    - **Save Windows:**  
      Click the **Save Windows** button to export your window selections to a CSV file. The file will contain two columns: the first lists the start time and the second lists the end time for each annotated window.
 
