@@ -413,7 +413,7 @@ class ArrayPlotterApp:
             return
         self.ax_fft.clear()
         minus_fft = self.minus_fft_calculator(self.array, self.windows, cosine_taper_length=50)
-        fs = 6.6
+        fs = self.sampling_rate
         dt = 1/fs
         time_duration = len(self.array) * dt
         t = np.arange(0, time_duration, dt)
