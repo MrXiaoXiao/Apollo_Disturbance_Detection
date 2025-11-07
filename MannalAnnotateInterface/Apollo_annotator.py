@@ -239,6 +239,8 @@ class ArrayPlotterApp:
         file_path = filedialog.askopenfilename()
         if file_path:
             self.stream = obspy.read(file_path)
+            self.stream.detrend('demean')
+            self.stream.merge(fill_value='interpolate')
             self.array = self.stream[0].data[:]
             self.starttime = self.stream[0].stats.starttime
             self.sampling_rate = self.stream[0].stats.sampling_rate
